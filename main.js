@@ -17,7 +17,7 @@ fetch ("https://api.themoviedb.org/3/trending/all/day?api_key=bc212c7fd1b1d2c5bf
         let days = diferenca / (1000 * 60 * 60 * 24);
 
         let hours = (diferenca % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60);
-        console.log(hours);
+        console.log(hours); 
     })
 
    
