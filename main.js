@@ -25,7 +25,7 @@ fetch(`${apiUrl}trending/${type}/day?api_key=${apiKey}&language=${apiLang}`)
 
         const backgroundImg = imgUrl + data.results[show].backdrop_path
 
-        document.querySelector('#full-page').style.backgroundImage = 'Linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(' + backgroundImg + ')'
+        document.querySelector('#full-page').style.backgroundImage = 'Linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(' + backgroundImg + ')'
     })
 
     .catch(erro => {
