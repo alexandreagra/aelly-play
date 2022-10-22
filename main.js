@@ -32,7 +32,7 @@ fetch(`${apiUrl}trending/${type}/day?api_key=${apiKey}&language=${apiLang}`)
         console.log('Error: ' + error.message)
     })
 
-const launchDate = new Date('Jan 1, 2024 09:00:00').getTime()
+const launchDate = new Date('Jan 1, 2023 09:00:00').getTime()
 
 const interval = () => {
     const timeNow = new Date().getTime()
