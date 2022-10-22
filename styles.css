@@ -40,6 +40,39 @@ h1{
     font-size: 50px;
 }
 
+#time-left {
+    margin-top: 80px;
+    margin-right: 32px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#time-left ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+#time-left li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    background-color: #EE1C27;
+    width: 150px;
+    padding: 10px;
+}
+
+#time-left span.time-num {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#time-left span.time-txt {
+    font-size: 20px;
+}
+
 p {
     color: white;
     font-size: 18px;
@@ -116,6 +149,18 @@ footer p{
         font-size: 40px;
     }
 
+    #time-left li {
+        width: 120px;
+    }
+
+    #time-left span.time-num {
+        font-size: 30px;
+    }
+
+    #time-left span.time-txt {
+        font-size: 18px;
+    }
+
     p, form input, form button {
         font-size: 16px;
     }
@@ -141,9 +186,22 @@ footer p{
         width: 380px;
         margin-bottom: 5px;
     }
+
+    #time-left li {
+        width: 100px;
+        margin: 0 10px;
+    }
+
+    #time-left span.time-num {
+        font-size: 20px;
+    }
+
+    #time-left span.time-txt {
+        font-size: 16px;
+    }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     header img {
         width: 120px;
     }
@@ -159,5 +217,9 @@ footer p{
     form input, form button {
         font-size: 12px;
         width: 320px;
+    }
+
+    #time-left span.time-txt {
+        font-size: 12px;
     }
 }
