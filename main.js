@@ -3,6 +3,9 @@ const apiKey = 'bc212c7fd1b1d2c5bf84e70a32cfd6e2'
 const apiLang = 'pt-BR'
 const imgUrl = 'https://image.tmdb.org/t/p/original'
 
+const obrigado = window.document.querySelector("#botao")
+obrigado.addEventListener('click', alerta)
+
 function alerta() {
     window.alert("Obrigado! Você será avisado(a) do lançamento.")
 }
@@ -82,8 +85,3 @@ const interval = () => {
 }
 
 setInterval(interval, 1000)
-
-
-
-
-
