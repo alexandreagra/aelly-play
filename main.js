@@ -63,11 +63,11 @@ const interval = () => {
             </li>
             <li>
                 <span class="time-num">${minutes}</span>
-                <span class="time-txt">minutos</span>
+                <span class="time-txt">min</span>
             </li>
             <li>
                 <span class="time-num">${seconds}</span>
-                <span class="time-txt">segundos</span>
+                <span class="time-txt">seg</span>
             </li>
         </ul>`
 
